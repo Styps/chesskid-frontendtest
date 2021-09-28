@@ -1,0 +1,14 @@
+@mixin buttonStyles() {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: $textColor;
+    font-family: $textFont;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+@mixin disabledButton() {
+    cursor: default;
+    opacity: 50%;
+}
